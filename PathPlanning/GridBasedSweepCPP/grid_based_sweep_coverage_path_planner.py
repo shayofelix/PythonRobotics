@@ -96,7 +96,7 @@ class SweepSearcher:
         ]
 
     def swap_moving_direction(self):
-        self.moving_direction *= -1
+        self.moving_direction *= 1
         self.update_turning_window()
 
     def search_start_grid(self, grid_map):
