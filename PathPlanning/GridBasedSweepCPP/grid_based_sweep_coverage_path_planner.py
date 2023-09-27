@@ -299,17 +299,17 @@ def main():  # pragma: no cover
 
     ox = [0.0, 20.0, 50.0, 100.0, 130.0, 40.0, 0.0]
     oy = [0.0, -20.0, 0.0, 30.0, 60.0, 80.0, 0.0]
-    resolution = 5.0
+    resolution = 15.0
     planning_animation(ox, oy, resolution)
 
     ox = [0.0, 50.0, 50.0, 0.0, 0.0]
     oy = [0.0, 0.0, 30.0, 30.0, 0.0]
-    resolution = 1.3
+    resolution = 13
     planning_animation(ox, oy, resolution)
 
     ox = [0.0, 20.0, 50.0, 200.0, 130.0, 40.0, 0.0]
     oy = [0.0, -80.0, 0.0, 30.0, 60.0, 80.0, 0.0]
-    resolution = 5.0
+    resolution = 15.0
     planning_animation(ox, oy, resolution)
 
     if do_animation:
